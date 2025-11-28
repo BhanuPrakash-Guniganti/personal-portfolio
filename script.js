@@ -12,7 +12,7 @@ function type() {
 }
 window.onload = type;
 
-// Smooth scroll polyfill for older browsers
+// Smooth scroll navigation
 document.querySelectorAll('nav ul li a').forEach(anchor => {
   anchor.addEventListener('click', function(e) {
     e.preventDefault();
