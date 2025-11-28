@@ -1,149 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bhanu Prakash Guniganti | MERN Developer</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhanu Prakash Guniganti | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <header id="header">
-        <nav class="navbar">
-            <a href="#hero" class="logo">Bhanu.dev</a>
-            
-            <ul class="menu-bar" id="desktopMenu">
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-
-            <div class="menu-icon" id="menuIcon">
-                <i class="fas fa-bars"></i>
-            </div>
-        </nav>
-    </header>
-
-    <ul class="mobile-menu" id="mobileMenu">
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">Bhanu Prakash</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
+  </nav>
 
-    <main>
-        <section id="hero" class="hero section animate-on-load">
-            <div class="container">
-                <p class="role-text fade-in-1">Hello, I'm Bhanu Prakash Guniganti</p>
-                <h1 class="fade-in-2">
-                    I create clean, interactive web experiences
-                </h1>
-                <p class="tagline fade-in-3">
-                    **Student Developer | MERN-Stack Developer** | Exploring AI & Building Innovative Web Experiences
-                </p>
-                <a href="#projects" class="btn cta-button fade-in-4">View My Work</a>
-            </div>
-        </section>
+  <!-- Hero Section -->
+  <section id="hero">
+    <h1>Bhanu Prakash Guniganti</h1>
+    <h2 id="typed-text"></h2>
+    <a href="#contact" class="btn">Get in Touch</a>
+  </section>
 
-        <section id="about" class="about section animate-on-scroll">
-            <div class="container">
-                <h2 class="section-title">About Me & Skills</h2>
-                <div class="about-grid">
-                    <div class="about-text">
-                        <h3>My Journey</h3>
-                        <p>I love turning ideas into functional projects as I work toward becoming a full **MERN stack developer**. My passion lies in creating **clean, modern, and interactive** applications that provide exceptional user experiences. I focus on scalable architecture and continuous learning in the latest technologies, including AI integration.</p>
-                        <p>Let's build the next big thing together!</p>
-                    </div>
-                    
-                    <div class="skills-section">
-                        <h3>Tech Stack</h3>
-                        <div class="skills-grid">
-                            <span class="skill-tag">HTML</span>
-                            <span class="skill-tag">CSS</span>
-                            <span class="skill-tag">JavaScript</span>
-                            <span class="skill-tag">React</span>
-                            <span class="skill-tag">Node.js</span>
-                            <span class="skill-tag">MongoDB</span>
-                            <span class="skill-tag">Express</span>
-                            <span class="skill-tag">UI/UX</span>
-                            <span class="skill-tag">Git</span>
-                            <span class="skill-tag">APIs</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m Bhanu Prakash Guniganti, a passionate frontend developer skilled in HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, and UI/UX design. 
+      I love building interactive web projects and continuously improving my skills while working towards becoming a full MERN stack developer.
+    </p>
+  </section>
 
-        <section id="projects" class="projects section animate-on-scroll">
-            <div class="container">
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">A showcase of my recent work. This section is ready for your 4-6 projects.</p>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <h3>MERN E-commerce Platform</h3>
-                        <p>Full-stack application using MongoDB, Express, React, and Node.js. Features user authentication and payment integration.</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Demo &rarr;</a>
-                            <a href="#" class="project-link">GitHub &rarr;</a>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <h3>Interactive Data Dashboard</h3>
-                        <p>A responsive front-end React application utilizing custom hooks and chart libraries for data visualization.</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Demo &rarr;</a>
-                            <a href="#" class="project-link">GitHub &rarr;</a>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <h3>Public API Integrator</h3>
-                        <p>A Node.js backend consuming multiple external APIs to display consolidated real-time information.</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Demo &rarr;</a>
-                            <a href="#" class="project-link">GitHub &rarr;</a>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <h3>Modern UI Redesign Concept</h3>
-                        <p>Showcasing advanced CSS, smooth transitions, and accessibility-first UI/UX principles.</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Demo &rarr;</a>
-                            <a href="#" class="project-link">GitHub &rarr;</a>
-                        </div>
-                    </div>
-                    </div>
-            </div>
-        </section>
+  <!-- Skills Section -->
+<!-- Skills Section -->
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-container">
+    <span class="skill-item">HTML</span>
+    <span class="skill-item">CSS</span>
+    <span class="skill-item">JavaScript</span>
+    <span class="skill-item">React</span>
+    <span class="skill-item">Node.js</span>
+    <span class="skill-item">MongoDB</span>
+    <span class="skill-item">UI/UX</span>
+    <span class="skill-item">Git</span>
+    <span class="skill-item">APIs</span>
+    <span class="skill-item">Express</span>
+  </div>
+</section>
 
-        <section id="contact" class="contact section animate-on-scroll">
-            <div class="container">
-                <h2 class="section-title">Get In Touch</h2>
-                <p class="section-subtitle">Have an idea? Let's build something great together.</p>
 
-                <form id="contact-form" class="contact-form">
-                    <input type="text" placeholder="Your Name" name="name" required>
-                    <input type="email" placeholder="Your Email" name="email" required>
-                    <textarea rows="5" placeholder="Your Message" name="message" required></textarea>
-                    <button type="submit" class="btn">Send Message</button>
-                    <p id="form-message" class="hidden"></p>
-                </form>
-            </div>
-        </section>
-    </main>
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>Projects will be added here soon.</p>
+  </section>
 
-    <footer id="footer">
-        <div class="container footer-content">
-            <p>&copy; 2025 Bhanu Prakash Guniganti. All rights reserved.</p>
-            <div class="social-links">
-                <a href="YOUR_GITHUB_URL" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
-                <a href="YOUR_LINKEDIN_URL" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                <a href="mailto:YOUR_EMAIL@EXAMPLE.COM" aria-label="Send Email"><i class="fas fa-envelope"></i></a>
-            </div>
-        </div>
-    </footer>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-links">
+      <a href="https://github.com/" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+      <a href="mailto:example@gmail.com">Email</a>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Bhanu Prakash Guniganti. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
