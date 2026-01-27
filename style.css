@@ -323,3 +323,37 @@ footer {
   display: inline-block;
   margin: 6px;
 }
+
+/* ===============================
+   Mobile Header Fix
+================================ */
+
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px 20px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .logo-img {
+    width: 38px;
+    height: 38px;
+  }
+
+}
+@media (max-width: 480px) {
+  #hero h1 {
+    font-size: 2rem;
+  }
+
+  #hero h2 {
+    font-size: 1rem;
+  }
+}
