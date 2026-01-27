@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Bhanu Prakash Guniganti | Portfolio</title>
 
@@ -11,22 +11,18 @@
   <link rel="icon" type="image/png" href="./assets/logo.png" />
   <link rel="apple-touch-icon" href="./assets/logo.png" />
 
-  <!-- ✅ PWA -->
+  <!-- ✅ PWA / Add to Home Screen -->
   <link rel="manifest" href="./manifest.json" />
   <meta name="theme-color" content="#111827" />
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
 
-  <!-- Fonts -->
+  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
   <!-- Navigation -->
   <nav>
     <a href="#" class="logo" onclick="location.reload();">
@@ -41,14 +37,14 @@
     </ul>
   </nav>
 
-  <!-- Hero -->
+  <!-- Hero Section -->
   <section id="hero">
     <h1>Bhanu Prakash Guniganti</h1>
     <h2 id="typed-text"></h2>
     <a href="#contact" class="btn">Get in Touch</a>
   </section>
 
-  <!-- About -->
+  <!-- About Section -->
   <section id="about">
     <h2>About Me</h2>
     <p>
@@ -58,7 +54,7 @@
     </p>
   </section>
 
-  <!-- Skills -->
+  <!-- Skills Section -->
   <section id="skills">
     <h2>Skills</h2>
 
@@ -97,28 +93,35 @@
     </div>
   </section>
 
-  <!-- Projects -->
+  <!-- Projects Section -->
   <section id="projects">
     <h2 class="section-title">Projects</h2>
 
+    <!-- Major Projects -->
     <div class="project-category">
       <h3 class="project-subtitle">Major Projects</h3>
-
       <div class="projects-grid">
-        <a href="#" class="project-card">
-          <h3>POI Finder</h3>
-          <p>MERN app for finding nearby points of interest with secure authentication.</p>
+
+        <a href="https://eplq-finder-app.netlify.app/" class="project-card" target="_blank">
+          <h3>Major Project 1</h3>
+          <p>A full-stack MERN web application that helps users find nearby Points of Interest securely. It uses map
+            APIs, authentication, and admin controls while focusing on privacy, clean UI, and a smooth user experience.
+          </p>
           <span class="project-btn">View Project</span>
         </a>
 
         <a href="https://imdb-react-app-alpha.vercel.app/" class="project-card" target="_blank">
-          <h3>IMDB Clone</h3>
-          <p>React movie app using TMDB API with genre filtering and watchlist.</p>
+          <h3>Major Project 2</h3>
+          <p>A React movie app that lets users search movies using the TMDB API, filter by genres, manage a watchlist,
+            and view detailed movie information. Built with Vite for fast performance and a clean, modular code
+            structure.</p>
           <span class="project-btn">View Project</span>
         </a>
+
       </div>
     </div>
 
+    <!-- Minor Projects Section -->
     <div class="project-category">
       <h3 class="project-subtitle">Minor Projects</h3>
 
@@ -126,31 +129,49 @@
 
         <a class="project-card" href="https://bhanuprakash-guniganti.github.io/weather-app/" target="_blank">
           <h3>Weather App</h3>
+          <p>Fetch live weather conditions using a public weather API.</p>
           <span class="project-btn">View Project</span>
         </a>
 
         <a class="project-card" href="https://bhanuprakash-guniganti.github.io/memory-card-game/" target="_blank">
-          <h3>Memory Game</h3>
+          <h3>Memory Card Game</h3>
+          <p>Fun memory matching game with responsive card animations.</p>
           <span class="project-btn">View Project</span>
         </a>
 
         <a class="project-card" href="https://bhanuprakash-guniganti.github.io/interactive-quiz/" target="_blank">
-          <h3>Quiz App</h3>
+          <h3>Interactive Quiz</h3>
+          <p>Quiz app with multiple questions and score calculation.</p>
+          <span class="project-btn">View Project</span>
+        </a>
+
+        <a class="project-card" href="https://bhanuprakash-dev.netlify.app/" target="_blank">
+          <h3>Personal Portfolio</h3>
+          <p>Clean and modern portfolio website showcasing skills & work.</p>
           <span class="project-btn">View Project</span>
         </a>
 
         <a class="project-card" href="https://bhanuprakash-guniganti.github.io/countdown-timer/" target="_blank">
           <h3>Countdown Timer</h3>
+          <p>Interactive countdown timer with customizable inputs.</p>
+          <span class="project-btn">View Project</span>
+        </a>
+
+        <a class="project-card" href="https://bhanuprakash-guniganti.github.io/expense-tracker/" target="_blank">
+          <h3>Expense Tracker</h3>
+          <p>Track daily expenses with local storage data persistence.</p>
           <span class="project-btn">View Project</span>
         </a>
 
         <a class="project-card" href="https://bhanuprakash-guniganti.github.io/basic-calculator/" target="_blank">
-          <h3>Calculator</h3>
+          <h3>Basic Calculator</h3>
+          <p>A simple calculator app performing basic arithmetic operations.</p>
           <span class="project-btn">View Project</span>
         </a>
 
         <a class="project-card" href="https://bhanuprakash-guniganti.github.io/chat-app/" target="_blank">
           <h3>Chat App</h3>
+          <p>Real-time chat application built with modern web technologies.</p>
           <span class="project-btn">View Project</span>
         </a>
 
@@ -159,20 +180,22 @@
 
   </section>
 
-  <!-- Contact -->
+  <!-- Contact Section -->
   <section id="contact">
     <h2>Contact Me</h2>
     <div class="contact-links">
       <a href="https://github.com/BhanuPrakash-Guniganti" target="_blank">GitHub</a>
       <a href="https://www.linkedin.com/in/bhanu-prakash-guniganti-405856295/" target="_blank">LinkedIn</a>
-      <a href="mailto:connectwithguniganti@gmail.com">Email</a>
+      <a href="mailto:gunigantibhanu@gmail.com">Email</a>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer>
-    <p>© 2025 Bhanu Prakash Guniganti</p>
+    <p>© 2025 Bhanu Prakash Guniganti. All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>
 </body>
+
 </html>
