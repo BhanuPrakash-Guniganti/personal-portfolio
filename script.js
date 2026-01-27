@@ -1,6 +1,6 @@
 // Typed Text Effect
 const typedText = document.getElementById('typed-text');
-const text = "Student & MERN Stack Developer | Passionate about building responsive web apps, exploring AI, and crafting engaging UI/UX experiences.";
+const text = "Student & MERN Stack Developer | Building responsive web apps, working with APIs, adding secure features, and creating clean, user-friendly designs.";
 let index = 0;
 
 function type() {

@@ -1,9 +1,46 @@
+# Bhanu Prakash – Portfolio Website
 
-👋 Welcome to My Personal Portfolio
+Personal portfolio showcasing MERN stack projects and frontend applications.
 
-This repository contains the source code for my personal portfolio website. I’m actively working on building and improving new sections, features, and projects.
-More updates, detailed project write-ups, and enhancements will be added soon as the development progresses. Stay tuned!
+## 🚀 Features
 
+- Responsive modern UI
+- PWA support (Add to Home Screen)
+- Projects showcase
+- Skills section
+- Contact links
+- Mobile friendly
+- Deployed on Netlify / GitHub Pages
+
+## 🛠 Tech Stack
+
+- HTML
+- CSS
+- JavaScript
+- Google Fonts
+- PWA Manifest
+
+## 📁 Folder Structure
+
+portfolio/
+│── index.html  
+│── style.css  
+│── script.js  
+│── manifest.json  
+└── assets/logo.png  
+
+## 🌐 Live Demo
+
+(Your deployed link here)
+
+## 📬 Contact
+
+- GitHub: https://github.com/BhanuPrakash-Guniganti  
+- LinkedIn: https://www.linkedin.com/in/bhanu-prakash-guniganti-405856295/  
+- Email: gunigantibhanu@gmail.com
 
 ---
+
+Built with ❤️ by Bhanu Prakash
+
 

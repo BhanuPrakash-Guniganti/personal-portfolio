@@ -1,0 +1,17 @@
+{
+  "name": "Bhanu Prakash Guniganti Portfolio",
+  "short_name": "Bhanu",
+  "description": "Personal portfolio of Bhanu Prakash Guniganti – MERN Stack Developer",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#111827",
+  "icons": [
+    {
+      "src": "./assets/logo.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ]
+}
