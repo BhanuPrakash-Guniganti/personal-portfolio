@@ -1,17 +1,36 @@
 {
-  "name": "Bhanu Prakash Guniganti Portfolio",
-  "short_name": "Bhanu",
-  "description": "Personal portfolio of Bhanu Prakash Guniganti – MERN Stack Developer",
+  "name": "Bhanu Prakash Guniganti | MERN Developer Portfolio",
+  "short_name": "Bhanu Portfolio",
+  "description": "Privacy-focused MERN developer building responsive, secure web apps with React, Node.js, Express & MongoDB",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#111827",
+  "background_color": "#121212",
+  "theme_color": "#00bfff",
+  "orientation": "portrait-primary",
+  "categories": ["portfolio", "developer"],
+  "lang": "en",
+  "dir": "ltr",
   "icons": [
     {
       "src": "./assets/logo.png",
-      "sizes": "any",
-      "type": "image/png"
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./assets/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
     }
   ]
 }

@@ -5,7 +5,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Bhanu Prakash Guniganti | Portfolio</title>
+  <title>Bhanu Prakash Guniganti | MERN Developer Portfolio</title>
+
+  <!-- Basic SEO -->
+  <meta
+    name="description"
+    content="Bhanu Prakash Guniganti – privacy-focused MERN stack developer building responsive, secure, and user-friendly web applications with React, Node.js, Express, and MongoDB."
+  >
+  <meta
+    name="keywords"
+    content="Bhanu Prakash Guniganti, MERN developer, React developer, Node.js, MongoDB, full stack developer, web developer portfolio, Hyderabad"
+  >
+  <meta name="author" content="Bhanu Prakash Guniganti">
+
+  <!-- Open Graph (for social sharing) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bhanu Prakash Guniganti | MERN Developer Portfolio">
+  <meta
+    property="og:description"
+    content="Privacy-focused MERN developer building responsive, secure, and user-friendly web applications."
+  >
+  <meta property="og:url" content="https://your-portfolio-domain.com/">
+  <!-- Replace with your deployed URL -->
+  <meta property="og:image" content="https://your-portfolio-domain.com/assets/logo.png">
+  <!-- Replace with an absolute URL to a preview image -->
+
+  <!-- Twitter Card (optional but nice) -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bhanu Prakash Guniganti | MERN Developer Portfolio">
+  <meta
+    name="twitter:description"
+    content="Privacy-focused MERN developer building responsive, secure, and user-friendly web applications."
+  >
+  <meta name="twitter:image" content="https://your-portfolio-domain.com/assets/logo.png">
 
   <!-- ✅ Favicon / App Icon -->
   <link rel="icon" type="image/png" href="./assets/logo.png" />
@@ -25,12 +57,26 @@
 <body>
   <!-- Navigation -->
   <nav>
-    <a href="#" class="logo" onclick="location.reload();">
+    <a href="#hero" class="logo">
       <img src="images/profile.jpg" alt="Logo" class="logo-img" />
     </a>
 
-    <ul class="nav-links">
+    <!-- Hamburger button (mobile) -->
+    <button
+      class="hamburger"
+      aria-label="Toggle navigation"
+      aria-expanded="false"
+      aria-controls="primary-navigation"
+      aria-haspopup="true"
+    >
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+    <ul class="nav-links" id="primary-navigation">
       <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -52,6 +98,35 @@
       JavaScript, React, Node.js, Express, and MongoDB. I like creating clean, user-friendly interfaces, working with
       APIs, and adding secure features. I’m always learning, improving my skills, and building real-world projects.
     </p>
+  </section>
+
+  <!-- Experience / Highlights Section -->
+  <section id="experience">
+    <h2>Experience & Highlights</h2>
+    <div class="experience-wrapper">
+      <div class="experience-item">
+        <h3>Major Project – EPLQ Finder App</h3>
+        <p>
+          Built a privacy-focused location-based MERN application that helps users securely find nearby points of interest
+          using map APIs, authentication, and role-based admin controls.
+        </p>
+      </div>
+      <div class="experience-item">
+        <h3>React Movie App</h3>
+        <p>
+          Developed a TMDB-powered movie discovery app with search, genre filters, watchlist management, and detailed movie
+          pages using React and modern frontend patterns.
+        </p>
+      </div>
+      <div class="experience-item">
+        <h3>Front-end Projects & Practice</h3>
+        <p>
+          Completed multiple mini-projects (weather app, quiz, chat app, expense tracker, and more) to strengthen JavaScript
+          logic, API integration, and responsive UI skills.
+        </p>
+      </div>
+      <!-- Add real internships / hackathons later if you have them -->
+    </div>
   </section>
 
   <!-- Skills Section -->
@@ -84,7 +159,7 @@
 
       <div class="skill-card">
         <h3>Other</h3>
-        <span class="skill-item">Git&Github</span>
+        <span class="skill-item">Git & Github</span>
         <span class="skill-item">UI/UX Basics</span>
         <span class="skill-item">Responsive Design</span>
         <span class="skill-item">Secure Features</span>
@@ -103,18 +178,27 @@
       <div class="projects-grid">
 
         <a href="https://eplq-finder-app.netlify.app/" class="project-card" target="_blank">
-          <h3>Major Project 1</h3>
-          <p>A full-stack MERN web application that helps users find nearby Points of Interest securely. It uses map
+          <h3>EPLQ Finder App</h3>
+          <p>
+            A full-stack MERN web application that helps users find nearby Points of Interest securely. It uses map
             APIs, authentication, and admin controls while focusing on privacy, clean UI, and a smooth user experience.
+          </p>
+          <p class="project-tech">
+            <strong>Tech stack:</strong> React, Node.js, Express, MongoDB, JWT, Map APIs
           </p>
           <span class="project-btn">View Project</span>
         </a>
 
         <a href="https://imdb-react-app-alpha.vercel.app/" class="project-card" target="_blank">
-          <h3>Major Project 2</h3>
-          <p>A React movie app that lets users search movies using the TMDB API, filter by genres, manage a watchlist,
+          <h3>React Movie App</h3>
+          <p>
+            A React movie app that lets users search movies using the TMDB API, filter by genres, manage a watchlist,
             and view detailed movie information. Built with Vite for fast performance and a clean, modular code
-            structure.</p>
+            structure.
+          </p>
+          <p class="project-tech">
+            <strong>Tech stack:</strong> React, Vite, TMDB API, CSS, Local Storage
+          </p>
           <span class="project-btn">View Project</span>
         </a>
 
@@ -169,7 +253,7 @@
           <span class="project-btn">View Project</span>
         </a>
 
-        <a class="project-card" href="https://bhanuprakash-guniganti.github.io/chat-app/" target="_blank">
+        <a class="project-card" href="https://bhanuprakash-guniganti.github.io/chat-application/" target="_blank">
           <h3>Chat App</h3>
           <p>Real-time chat application built with modern web technologies.</p>
           <span class="project-btn">View Project</span>
